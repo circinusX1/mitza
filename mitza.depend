@@ -1,0 +1,1119 @@
+# depslib dependency file v1.0
+1369627705 source:/home/marius/C++/GOOGLE/mitza/config.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	"config.h"
+	<strutils.h>
+	"database.h"
+
+1369627749 /home/marius/C++/GOOGLE/mitza/config.h
+	<os.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<string.h>
+	<stdio.h>
+	<string>
+	<sstream>
+	<map>
+
+1368653525 /home/marius/C++/GOOGLE/mitza/include/os.h
+	<errno.h>
+	<unistd.h>
+	<pthread.h>
+	<semaphore.h>
+	<stdio.h>
+	<inttypes.h>
+	<matypes.h>
+	<string>
+	<iostream>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<deque>
+	<algorithm>
+	<wchar.h>
+
+1336532230 /home/marius/C++/GOOGLE/mitza/include/matypes.h
+	<stddef.h>
+
+1363877019 /home/marius/C++/GOOGLE/mitza/include/strutils.h
+	<matypes.h>
+	<stdarg.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<consts.h>
+
+1344753188 /home/marius/C++/GOOGLE/mitza/include/consts.h
+	<os.h>
+	<matypes.h>
+	<string.h>
+
+1368464945 /home/marius/C++/GOOGLE/mitza/database.h
+	<os.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	<mysql/mysql.h>
+
+1370276089 source:/home/marius/C++/GOOGLE/mitza/database.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<unistd.h>
+	"os.h"
+	"database.h"
+	"config.h"
+	"main.h"
+
+1369450961 source:/home/marius/C++/GOOGLE/mitza/glb.cpp
+	<memory>
+	"main.h"
+	"strops.h"
+	"database.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+	"glb.h"
+
+1368738020 /home/marius/C++/GOOGLE/mitza/main.h
+	<signal.h>
+	<os.h>
+	<assert.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+	"glb.h"
+
+1367691538 /home/marius/C++/GOOGLE/mitza/htpargs.h
+	<string.h>
+	<stdlib.h>
+	<map>
+	<string>
+	<assert.h>
+
+1370276891 /home/marius/C++/GOOGLE/mitza/site.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"glb.h"
+
+1367691630 /home/marius/C++/GOOGLE/mitza/wcurl.h
+	<assert.h>
+	<string.h>
+	<sys/socket.h>
+	<curl/curl.h>
+
+1369445202 /home/marius/C++/GOOGLE/mitza/glb.h
+	<os.h>
+
+1365629235 source:/home/marius/C++/GOOGLE/mitza/htpargs.cpp
+	"htpargs.h"
+
+1369626876 source:/home/marius/C++/GOOGLE/mitza/main.cpp
+	<openssl/md5.h>
+	<htmlcxx/html/ParserDom.h>
+	<memory>
+	<pcrecpp.h>
+	"os.h"
+	"strops.h"
+	"main.h"
+	"database.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+
+1369420018 /home/marius/C++/GOOGLE/mitza/strops.h
+	<string>
+	<algorithm>
+	<string.h>
+	<pcrecpp.h>
+
+1368213581 /home/marius/C++/GOOGLE/mitza/thr.h
+	<signal.h>
+	<os.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+
+1370276089 source:/home/marius/C++/GOOGLE/mitza/site.cpp
+	"strops.h"
+	"main.h"
+	"database.h"
+	"site.h"
+	"thr.h"
+	"config.h"
+	"wcurl.h"
+
+1370276744 source:/home/marius/C++/GOOGLE/mitza/strops.cpp
+	<assert.h>
+	"config.h"
+	"strops.h"
+
+1368481576 source:/home/marius/C++/GOOGLE/mitza/thr.cpp
+	<openssl/md5.h>
+	<htmlcxx/html/ParserDom.h>
+	<memory>
+	<pcrecpp.h>
+	"main.h"
+	"database.h"
+	"site.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+	"glb.h"
+
+1367690941 source:/home/marius/C++/GOOGLE/mitza/wcurl.cpp
+	<assert.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<pcrecpp.h>
+	"strops.h"
+	"wcurl.h"
+	"main.h"
+
+1370276703 /home/marius/C++/GOOGLE/mitza/webpage.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"site.h"
+
+1369445344 source:/home/marius/C++/GOOGLE/mitza/webpage.cpp
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<openssl/md5.h>
+	"strops.h"
+	"site.h"
+	"webpage.h"
+	"main.h"
+	"database.h"
+	"wcurl.h"
+	"thr.h"
+	"glb.h"
+	"config.h"
+
+1367986547 source:/home/marius/C++/GOOGLE/mitza/queries.cpp
+
+1369413152 source:/home/marius/C++/GOOGLE/mitza/mimes.cpp
+	"mimes.h"
+
+1369413122 /home/marius/C++/GOOGLE/mitza/mimes.h
+	<string>
+	<map>
+
+1375886100 source:/home/marius/CPP/GOOGLE/mitza/config.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	"config.h"
+	<strutils.h>
+	"database.h"
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/config.h
+	<os.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<string.h>
+	<stdio.h>
+	<string>
+	<sstream>
+	<map>
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/include/os.h
+	<errno.h>
+	<unistd.h>
+	<pthread.h>
+	<semaphore.h>
+	<stdio.h>
+	<inttypes.h>
+	<matypes.h>
+	<string>
+	<iostream>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<deque>
+	<algorithm>
+	<wchar.h>
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/include/matypes.h
+	<stddef.h>
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/include/strutils.h
+	<matypes.h>
+	<stdarg.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<consts.h>
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/include/consts.h
+	<os.h>
+	<matypes.h>
+	<string.h>
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/database.h
+	<os.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	<mysql/mysql.h>
+
+1375887165 source:/home/marius/CPP/GOOGLE/mitza/database.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<unistd.h>
+	"os.h"
+	"database.h"
+	"config.h"
+	"main.h"
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/main.h
+	<signal.h>
+	<os.h>
+	<assert.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+	"glb.h"
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/htpargs.h
+	<string.h>
+	<stdlib.h>
+	<map>
+	<string>
+	<assert.h>
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/glb.h
+	<os.h>
+
+1375886100 source:/home/marius/CPP/GOOGLE/mitza/glb.cpp
+	<memory>
+	"main.h"
+	"strops.h"
+	"database.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+	"glb.h"
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/strops.h
+	<string>
+	<algorithm>
+	<string.h>
+	<pcrecpp.h>
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/webpage.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"site.h"
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/site.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"glb.h"
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/wcurl.h
+	<assert.h>
+	<string.h>
+	<sys/socket.h>
+	<curl/curl.h>
+
+1375886100 /home/marius/CPP/GOOGLE/mitza/thr.h
+	<signal.h>
+	<os.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+
+1375886100 source:/home/marius/CPP/GOOGLE/mitza/htpargs.cpp
+	"htpargs.h"
+
+1375886100 source:/home/marius/CPP/GUGLE/src/mitza/config.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	"config.h"
+	<strutils.h>
+	"database.h"
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/config.h
+	<os.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<string.h>
+	<stdio.h>
+	<string>
+	<sstream>
+	<map>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/include/os.h
+	<errno.h>
+	<unistd.h>
+	<pthread.h>
+	<semaphore.h>
+	<stdio.h>
+	<inttypes.h>
+	<matypes.h>
+	<string>
+	<iostream>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<deque>
+	<algorithm>
+	<wchar.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/include/matypes.h
+	<stddef.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/include/strutils.h
+	<matypes.h>
+	<stdarg.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<consts.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/include/consts.h
+	<os.h>
+	<matypes.h>
+	<string.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/database.h
+	<os.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	<mysql/mysql.h>
+
+1375887165 source:/home/marius/CPP/GUGLE/src/mitza/database.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<unistd.h>
+	"os.h"
+	"database.h"
+	"config.h"
+	"main.h"
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/main.h
+	<signal.h>
+	<os.h>
+	<assert.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+	"glb.h"
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/htpargs.h
+	<string.h>
+	<stdlib.h>
+	<map>
+	<string>
+	<assert.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/glb.h
+	<os.h>
+
+1375886100 source:/home/marius/CPP/GUGLE/src/mitza/glb.cpp
+	<memory>
+	"main.h"
+	"strops.h"
+	"database.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+	"glb.h"
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/strops.h
+	<string>
+	<algorithm>
+	<string.h>
+	<pcrecpp.h>
+
+1410040096 /home/marius/CPP/GUGLE/src/mitza/webpage.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"site.h"
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/site.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"glb.h"
+
+1410040351 /home/marius/CPP/GUGLE/src/mitza/wcurl.h
+	<assert.h>
+	<string.h>
+	<sys/socket.h>
+	<curl/curl.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/thr.h
+	<signal.h>
+	<os.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+
+1375886100 source:/home/marius/CPP/GUGLE/src/mitza/htpargs.cpp
+	"htpargs.h"
+
+1375886100 source:/home/marius/CPP/GUGLE/src/mitza/mimes.cpp
+	"mimes.h"
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza/mimes.h
+	<string>
+	<map>
+
+1375886100 source:/home/marius/CPP/GUGLE/src/mitza/strops.cpp
+	<assert.h>
+	"config.h"
+	"strops.h"
+
+1375886100 source:/home/marius/CPP/GUGLE/src/mitza/thr.cpp
+	<openssl/md5.h>
+	<htmlcxx/html/ParserDom.h>
+	<memory>
+	<pcrecpp.h>
+	"main.h"
+	"database.h"
+	"site.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+	"glb.h"
+
+1375886100 source:/home/marius/CPP/GUGLE/src/mitza/wcurl.cpp
+	<assert.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<pcrecpp.h>
+	"strops.h"
+	"wcurl.h"
+	"main.h"
+
+1412011652 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/config.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	"config.h"
+	<strutils.h>
+	"database.h"
+
+1412011658 /home/marius/CPP/GUGLE/src/mitza-web-crawler/config.h
+	<os.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<string.h>
+	<stdio.h>
+	<string>
+	<sstream>
+	<map>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza-web-crawler/include/os.h
+	<errno.h>
+	<unistd.h>
+	<pthread.h>
+	<semaphore.h>
+	<stdio.h>
+	<inttypes.h>
+	<matypes.h>
+	<string>
+	<iostream>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<deque>
+	<algorithm>
+	<wchar.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza-web-crawler/include/matypes.h
+	<stddef.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza-web-crawler/include/strutils.h
+	<matypes.h>
+	<stdarg.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<consts.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitza-web-crawler/include/consts.h
+	<os.h>
+	<matypes.h>
+	<string.h>
+
+1412011667 /home/marius/CPP/GUGLE/src/mitza-web-crawler/database.h
+	<os.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	<mysql/mysql.h>
+
+1412132615 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/database.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<unistd.h>
+	"os.h"
+	"database.h"
+	"config.h"
+	"main.h"
+
+1412011788 /home/marius/CPP/GUGLE/src/mitza-web-crawler/main.h
+	<signal.h>
+	<os.h>
+	<assert.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+	"glb.h"
+
+1412011788 /home/marius/CPP/GUGLE/src/mitza-web-crawler/htpargs.h
+	<string.h>
+	<stdlib.h>
+	<map>
+	<string>
+	<assert.h>
+
+1412011677 /home/marius/CPP/GUGLE/src/mitza-web-crawler/glb.h
+	<os.h>
+
+1412132312 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/glb.cpp
+	<memory>
+	"main.h"
+	"strops.h"
+	"database.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+	"glb.h"
+
+1412011721 /home/marius/CPP/GUGLE/src/mitza-web-crawler/strops.h
+	<string>
+	<algorithm>
+	<string.h>
+	<pcrecpp.h>
+
+1412011746 /home/marius/CPP/GUGLE/src/mitza-web-crawler/webpage.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"site.h"
+
+1412011788 /home/marius/CPP/GUGLE/src/mitza-web-crawler/site.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"glb.h"
+
+1412011737 /home/marius/CPP/GUGLE/src/mitza-web-crawler/wcurl.h
+	<assert.h>
+	<string.h>
+	<sys/socket.h>
+	<curl/curl.h>
+
+1412011728 /home/marius/CPP/GUGLE/src/mitza-web-crawler/thr.h
+	<signal.h>
+	<os.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+
+1412011788 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/htpargs.cpp
+	"htpargs.h"
+
+1412011689 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/main.cpp
+	<openssl/md5.h>
+	<htmlcxx/html/ParserDom.h>
+	<memory>
+	<pcrecpp.h>
+	"os.h"
+	"strops.h"
+	"main.h"
+	"database.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+
+1412011788 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/mimes.cpp
+	"mimes.h"
+
+1412011788 /home/marius/CPP/GUGLE/src/mitza-web-crawler/mimes.h
+	<string>
+	<map>
+
+1412133400 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/site.cpp
+	"strops.h"
+	"main.h"
+	"database.h"
+	"site.h"
+	"thr.h"
+	"config.h"
+	"wcurl.h"
+
+1412011716 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/strops.cpp
+	<assert.h>
+	"config.h"
+	"strops.h"
+
+1412011724 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/thr.cpp
+	<openssl/md5.h>
+	<htmlcxx/html/ParserDom.h>
+	<memory>
+	<pcrecpp.h>
+	"main.h"
+	"database.h"
+	"site.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+	"glb.h"
+
+1412011732 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/wcurl.cpp
+	<assert.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<pcrecpp.h>
+	"strops.h"
+	"wcurl.h"
+	"main.h"
+
+1412194726 source:/home/marius/CPP/GUGLE/src/mitza-web-crawler/webpage.cpp
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<openssl/md5.h>
+	"strops.h"
+	"site.h"
+	"webpage.h"
+	"main.h"
+	"database.h"
+	"wcurl.h"
+	"thr.h"
+	"glb.h"
+	"config.h"
+
+1421955809 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/config.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	"config.h"
+	<strutils.h>
+	"database.h"
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/config.h
+	<os.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<string.h>
+	<stdio.h>
+	<string>
+	<sstream>
+	<map>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitzee/mitza/include/os.h
+	<errno.h>
+	<unistd.h>
+	<pthread.h>
+	<semaphore.h>
+	<stdio.h>
+	<inttypes.h>
+	<matypes.h>
+	<string>
+	<iostream>
+	<fstream>
+	<map>
+	<set>
+	<vector>
+	<deque>
+	<algorithm>
+	<wchar.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitzee/mitza/include/matypes.h
+	<stddef.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitzee/mitza/include/strutils.h
+	<matypes.h>
+	<stdarg.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<consts.h>
+
+1375886100 /home/marius/CPP/GUGLE/src/mitzee/mitza/include/consts.h
+	<os.h>
+	<matypes.h>
+	<string.h>
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/database.h
+	<os.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	<mysql/mysql.h>
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/database.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<unistd.h>
+	"os.h"
+	"database.h"
+	"config.h"
+	"main.h"
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/main.h
+	<signal.h>
+	<os.h>
+	<assert.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+	"glb.h"
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/htpargs.h
+	<string.h>
+	<stdlib.h>
+	<map>
+	<string>
+	<assert.h>
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/glb.h
+	<os.h>
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/glb.cpp
+	<memory>
+	"main.h"
+	"strops.h"
+	"database.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+	"glb.h"
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/strops.h
+	<string>
+	<algorithm>
+	<string.h>
+	<pcrecpp.h>
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/webpage.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"site.h"
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/site.h
+	<iostream>
+	<stdint.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	<map>
+	<string>
+	<iostream>
+	<sstream>
+	<memory>
+	<os.h>
+	<htmlcxx/html/ParserDom.h>
+	"main.h"
+	"htpargs.h"
+	"config.h"
+	"glb.h"
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/wcurl.h
+	<assert.h>
+	<string.h>
+	<sys/socket.h>
+	<curl/curl.h>
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/thr.h
+	<signal.h>
+	<os.h>
+	<mysql/mysql.h>
+	"htpargs.h"
+	"database.h"
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/htpargs.cpp
+	"htpargs.h"
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/main.cpp
+	<openssl/md5.h>
+	<htmlcxx/html/ParserDom.h>
+	<memory>
+	<pcrecpp.h>
+	"os.h"
+	"strops.h"
+	"main.h"
+	"database.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/mimes.cpp
+	"mimes.h"
+
+1414613635 /home/marius/CPP/GUGLE/src/mitzee/mitza/mimes.h
+	<string>
+	<map>
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/site.cpp
+	"strops.h"
+	"main.h"
+	"database.h"
+	"site.h"
+	"thr.h"
+	"config.h"
+	"wcurl.h"
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/strops.cpp
+	<assert.h>
+	"config.h"
+	"strops.h"
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/thr.cpp
+	<openssl/md5.h>
+	<htmlcxx/html/ParserDom.h>
+	<memory>
+	<pcrecpp.h>
+	"main.h"
+	"database.h"
+	"site.h"
+	"webpage.h"
+	"wcurl.h"
+	"config.h"
+	"thr.h"
+	"glb.h"
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/wcurl.cpp
+	<assert.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<pcrecpp.h>
+	"strops.h"
+	"wcurl.h"
+	"main.h"
+
+1414613635 source:/home/marius/CPP/GUGLE/src/mitzee/mitza/webpage.cpp
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<openssl/md5.h>
+	"strops.h"
+	"site.h"
+	"webpage.h"
+	"main.h"
+	"database.h"
+	"wcurl.h"
+	"thr.h"
+	"glb.h"
+	"config.h"
+

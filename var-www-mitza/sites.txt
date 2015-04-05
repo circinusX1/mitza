@@ -1,0 +1,6 @@
+http://www.getic.net
+http://www.enjoydecor.com
+#http://www.site.com,cat,reindex,max-depth,max-links-persite,go-out-ofsite,#
+#http://www.site.com,cat,reindex,max-depth,max-links-persite,go-out-ofsite,#
+#http://www.site.com,cat,reindex,max-depth,max-links-persite,go-out-ofsite,#
+#http://www.site.com,cat,reindex,max-depth,max-links-persite,go-out-ofsite,#

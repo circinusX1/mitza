@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mitza" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../bin/mitza/mitza" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="--run" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../bin/mitza/mitza" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+			<Add directory="htmlxxx/html" />
+		</Compiler>
+		<Linker>
+			<Add library="curl" />
+			<Add library="pthread" />
+			<Add library="mysqlclient" />
+			<Add library="gnutls-openssl" />
+			<Add library="pcrecpp" />
+			<Add library="htmlcxx" />
+		</Linker>
+		<Unit filename="../../../../../var/www/dblocal.php/" />
+		<Unit filename="../bin/mitza-deps.sh" />
+		<Unit filename="../bin/mitza.conf" />
+		<Unit filename="CMakeLists.txt" />
+		<Unit filename="README" />
+		<Unit filename="bin/mitza.config" />
+		<Unit filename="bin/setup.sh" />
+		<Unit filename="bin/sql/tables.sql" />
+		<Unit filename="config.cpp" />
+		<Unit filename="config.h" />
+		<Unit filename="database.cpp" />
+		<Unit filename="database.h" />
+		<Unit filename="glb.cpp" />
+		<Unit filename="glb.h" />
+		<Unit filename="htpargs.cpp" />
+		<Unit filename="htpargs.h" />
+		<Unit filename="include/os.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="mimes.cpp" />
+		<Unit filename="mimes.h" />
+		<Unit filename="site.cpp" />
+		<Unit filename="site.h" />
+		<Unit filename="strops.cpp" />
+		<Unit filename="strops.h" />
+		<Unit filename="thr.cpp" />
+		<Unit filename="thr.h" />
+		<Unit filename="var-www-mitza/include/@config.php" />
+		<Unit filename="var-www-mitza/include/ex.php" />
+		<Unit filename="var-www-mitza/include/smap.php" />
+		<Unit filename="var-www-mitza/include/stil.css" />
+		<Unit filename="var-www-mitza/include/swcount.php" />
+		<Unit filename="var-www-mitza/index.php" />
+		<Unit filename="var-www-mitza/sites.txt" />
+		<Unit filename="wcurl.cpp" />
+		<Unit filename="wcurl.h" />
+		<Unit filename="webpage.cpp" />
+		<Unit filename="webpage.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

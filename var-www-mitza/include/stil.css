@@ -1,0 +1,88 @@
+
+
+
+.ajaxtooltip{
+    position: absolute; /*leave this alone*/
+    display: none; /*leave this alone*/
+    width: 180;
+    left: 0; /*leave this alone*/
+    top: 0; /*leave this alone*/
+    background: lightyellow;
+    border: 2px solid gray;
+    border-width: 1px 2px 2px 1px;
+    padding: 5px;
+}
+
+
+table
+{
+    table-layout: fixed;
+
+}
+
+
+table th, table td
+{
+    overflow: hidden;
+}
+
+td.link
+{
+    font-size:18px;
+
+}
+
+td.bord
+{
+     border: 1px solid #FE0;
+}
+
+td.sfont {
+    font-size:12px;
+}
+
+td.ufont
+{
+    font-size:8px;
+}
+
+
+td.wraped
+{
+    float:right;
+    font-size:12px;
+}
+
+td.image
+{
+}
+
+
+input
+{
+    background: #FFB;
+}
+
+
+.meter-wrap{
+    position: relative;
+}
+
+.meter-wrap, .meter-value, .meter-text {
+    /* The width and height of your image */
+    width: 100px; height: 18px;
+}
+
+.meter-wrap, .meter-value {
+    background: #DD9 top left no-repeat;
+}
+
+.meter-text {
+    position: absolute;
+    top:0; left:0;
+    padding-top: 5px;
+    color: #000;
+    text-align: left;
+    width: 100%;
+}
+

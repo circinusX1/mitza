@@ -1,0 +1,54 @@
+digraph sitegraph {graph [ dpi = 60 ];
+rankdir=LR;
+ bgcolor="#EFEFAF";
+1 [label="http://enjoydecor.com"];
+2 [label="stagedprops.html"];
+13 [label="sitemap"];
+23 [label="index.php?F=index"];
+18 [label="stagedprops_4Model-Homes.html"];
+21 [label="stagedprops_3Apartments-and-Lofts.html"];
+22 [label="stagedprops_2Occupied-Homes.html"];
+24 [label="stagedprops_1Luxury-Homes.html"];
+3 [label="interior-decorating.html"];
+4 [label="home-staging-benefits.html"];
+5 [label="enjoydecor-about.html"];
+6 [label="decorating-and-staging-services.html"];
+7 [label="home-staging-testimonials.html"];
+8 [label="contact-enjoy-decor.html"];
+9 [label="staging-emptyhouse.html"];
+14 [label="index.php?F=gallery"];
+10 [label="home-staging-and-design-gallery.html"];
+11 [label="index.php?F=home-staging-and-design-gallery&pg=6"];
+20 [label="index.php?F=home-staging-and-design-gallery&pg=0"];
+12 [label="index.php?F=home-staging-and-design-gallery&pg=5"];
+15 [label="index.php?F=home-staging-and-design-gallery&pg=1"];
+16 [label="index.php?F=home-staging-and-design-gallery&pg=3"];
+17 [label="index.php?F=home-staging-and-design-gallery&pg=4"];
+19 [label="index.php?F=home-staging-and-design-gallery&pg=2"];
+25 [label="what-is-home-staging.html"];
+
+1 -> 2 
+1 -> 3 
+1 -> 4 
+1 -> 5 
+1 -> 6 
+1 -> 7 
+1 -> 8 
+1 -> 9 
+1 -> 10 
+1 -> 25 
+2 -> 13 
+2 -> 18 
+2 -> 21 
+2 -> 22 
+2 -> 24 
+13 -> 23 
+9 -> 14 
+10 -> 11 
+10 -> 12 
+10 -> 15 
+10 -> 16 
+10 -> 17 
+10 -> 19 
+11 -> 20 
+ }
