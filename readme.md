@@ -1,30 +1,4 @@
 
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @comarius
-
-1
-0
-
-    0
-
-comarius/mitza
-Code
-Issues 0
-Pull requests 0
-Wiki
-Pulse
-Graphs
-Settings
-mitza/README
-43519e4 18 seconds ago
-@comarius comarius Update README
-67 lines (42 sloc) 1.71 KB
 # Web Crawler and Indexer for Linux C++, mysql
 
 
