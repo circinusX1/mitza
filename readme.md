@@ -1,5 +1,5 @@
 
-# Web Crawler and Indexer for Linux C++, mysql
+# Web Crawler and Indexer for Linux C++, MYSQL
 
 
 Demo:
